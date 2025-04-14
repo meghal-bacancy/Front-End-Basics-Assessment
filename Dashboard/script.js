@@ -106,12 +106,14 @@ function openModal(blog) {
 
 document.querySelector('.close-btn').addEventListener('click', () => {
     document.getElementById('blogModal').classList.add('hidden');
+    displayBlog()
 });
 
 document.getElementById('blogModal').addEventListener('click', (e) => {
     if (e.target.id === 'blogModal') {
         e.currentTarget.classList.add('hidden');
     }
+    displayBlog()
 });
 
 document.getElementById('commentsList').addEventListener('dblclick', (e) => {
