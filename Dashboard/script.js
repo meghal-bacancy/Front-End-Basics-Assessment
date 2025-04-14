@@ -18,7 +18,7 @@ function logout() {
 }
 
 function getFirst30(str) {
-    return str.length < 30 ? str : str.slice(0, 30) + '...';
+    return str.length < 30 ? str : str.slice(0, 27) + '...';
 }
 
 function handleCommentPost(event) {
