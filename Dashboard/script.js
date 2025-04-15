@@ -1,5 +1,5 @@
 if (localStorage.getItem('isLoggedIn') !== 'true') {
-    window.location.href = '..\\Login\\Login.html';
+    window.location.href = '..\\login\\login.html';
 }
 
 const userEmail = document.getElementById('userEmail');
@@ -53,7 +53,7 @@ function displayBlog() {
                             <i class="fa-solid fa-comments"></i> ${blog.comments.length}
                         </span>
                     </h3>
-                    <img class="img" src="img/${blog.image}" alt="${blog.image}">
+                    <img class="img" src="../Assets/dashboard/img/${blog.image}" alt="${blog.image}">
                     <p class="content">${getFirst30(blog.content)}</p>
                     <form class="comment-form" data-id="${blog.id}">
                         <input class="comment-box" type="text" placeholder="Add a comment..." required>
@@ -86,7 +86,7 @@ function openModal(blog) {
     currentBlogIndex = blogsData.findIndex(b => b.id === blog.id);
 
     document.getElementById('modalTitle').innerText = blog.title;
-    document.getElementById('modalImage').src = `img/${blog.image}`;
+    document.getElementById('modalImage').src = `../Assets/dashboard/img/${blog.image}`;
     document.getElementById('modalImage').alt = blog.image;
     document.getElementById('modalContent').innerText = blog.content;
 

@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <title>Dashboard</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-          <h2>MyBlog</h2>
-          <ul>
-            <li><p id="userEmail">Home</p></li>
-            <li><a href="#" onclick="logout()">Log Out</a></li>
-          </ul>
-        </nav>
-    </header>   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+            <h2>MyBlog</h2>
+            <ul>
+                <li><p id="userEmail">Home</p></li>
+                <li><a href="#" onclick="logout()">Log Out</a></li>
+            </ul>
+            </nav>
+        </header>   
 
-    <div class="main-content">
-        <div class="card-container" id="blogContainer">
+        <div class="main-content">
+            <div class="card-container" id="blogContainer">
 
 
-        </div>
-    </div>
-
-    <footer>© 2025 MyBlog. All rights reserved.</footer>
-
-    <div id="blogModal" class="modal hidden">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h3 id="modalTitle"></h3>
-            <img id="modalImage" src="" alt="">
-            <p id="modalContent"></p>
-            
-            <div id="modalComments">
-                <h4>Comments</h4>
-                <ul id="commentsList"></ul>
-    
-                <form id="modalCommentForm" class="comment-input-group">
-                    <input id="modalCommentInput" class="comment-box" type="text" placeholder="Add a comment..." required>
-                    <button class="comment-btn" type="submit">Post</button>
-                </form>
             </div>
         </div>
-    </div>    
 
-    <script src="script.js"></script>
-</body>
+        <footer>© 2025 MyBlog. All rights reserved.</footer>
+
+        <div id="blogModal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h3 id="modalTitle"></h3>
+                <img id="modalImage" src="" alt="">
+                <p id="modalContent"></p>
+                
+                <div id="modalComments">
+                    <h4>Comments</h4>
+                    <form id="modalCommentForm" class="comment-input-group">
+                        <input id="modalCommentInput" class="comment-box" type="text" placeholder="Add a comment..." required>
+                        <button class="comment-btn" type="submit">Post</button>
+                    </form>
+                    <ul id="commentsList"></ul>
+                </div>
+            </div>
+        </div>    
+
+        <script src="script.js"></script>
+    </body>
 </html>

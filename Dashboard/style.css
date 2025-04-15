@@ -126,8 +126,6 @@ footer {
     font-size: 0.9em;
 }
 
-
-
 .modal {
     position: fixed;
     top: 0;
@@ -195,6 +193,7 @@ footer {
 .comment-input-group {
     display: flex;
     margin-top: 10px;
+    margin-bottom: 10px;
     gap: 8px;
 }
 
