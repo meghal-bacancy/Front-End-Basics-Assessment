@@ -7,48 +7,6 @@ usersData = [
     }
 ]
 
-// blogsData = [
-//     {
-//         id: 1,
-//         title: "Lorem ipsum",
-//         image: "card_image.jpg",
-//         content: "Lorem ipsum, dolor sit amet.",
-//         comments: [
-//             {
-//                 username: "John Doe",
-//                 content: "Lorem ipsum dolor sit.",
-//             },
-//             {
-//                 username: "John Doe",
-//                 content: "Lorem ipsum dolor sit.",
-//             }
-//         ]
-//     },
-//     {
-//         id: 2,
-//         title: "Blog Lorem",
-//         image: "card_image.jpg",
-//         content: "Lorem ipsum, dolor sit amet.",
-//         comments: [
-//             {
-//                 username: "John Doe",
-//                 content: "Lorem ipsum dolor sit.",
-//             }
-//         ]
-//     },
-//     {
-//         id: 3,
-//         title: "Lorem ipsum",
-//         image: "card_image.jpg",
-//         content: "Lorem ipsum, dolor sit amet.",
-//         comments: [
-//             {
-//                 username: "John Doe",
-//                 content: "Lorem ipsum dolor sit.",
-//             }
-//         ]
-//     }
-// ];
 const blogsData = [
     {
         id: 1,
