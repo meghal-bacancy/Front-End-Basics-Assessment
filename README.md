@@ -35,7 +35,7 @@ Front-End-Basics-Assessment
 │   │   ├── login.html
 │   │   ├── script.js
 │   │   └── style.css
-│   └── index.html/
+│   └── index.html
 └── README.md
 ```
 
