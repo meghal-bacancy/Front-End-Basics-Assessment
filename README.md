@@ -47,22 +47,10 @@ Front-End-Basics-Assessment
 
 
 ## 📸 Screenshots
-###Login
+### Login
 ![Login View](https://github.com/meghal-bacancy/Front-End-Basics-Assessment/blob/main/img/1.png)
 
 ### Dashboard
-![Dashboard View](./UI%20Images/2.png)
-
-![Dashboard View](./UI%20Images/3.png)
-
-
-![Dashboard View](./UI%20Images/4.png)
-
-### Logout
-![Dashboard View](./UI%20Images/5.png)
-
-### Add Blog
-![Dashboard View](./UI%20Images/6.png)
-
-### Blog Detail
-![Dashboard View](./UI%20Images/7.png)
+![Dashboard View_1](https://github.com/meghal-bacancy/Front-End-Basics-Assessment/blob/main/img/2.png)
+![Dashboard View_2](https://github.com/meghal-bacancy/Front-End-Basics-Assessment/blob/main/img/3.png)
+![Dashboard View_3](https://github.com/meghal-bacancy/Front-End-Basics-Assessment/blob/main/img/4.png)
